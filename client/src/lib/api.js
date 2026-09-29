@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://127.0.0.1:8001'
+const API_BASE_URL = 'https://agentic-rag-system-c7nw.onrender.com'
 
 export async function uploadFiles(files) {
   const formData = new FormData()
