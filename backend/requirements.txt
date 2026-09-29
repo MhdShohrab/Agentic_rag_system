@@ -21,7 +21,7 @@ langchain-text-splitters
 faiss-cpu
 pypdf
 
-torch==2.8.0+cpu
+torch==2.14.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 sentence-transformers
