@@ -1,12 +1,30 @@
-langchain
-langchain-community
-python-dotenv
-faiss-cpu
-pypdf
-sentence-transformers
-langchain-groq
-tavily-python
+# langchain
+# langchain-community
+# python-dotenv
+# faiss-cpu
+# pypdf
+# sentence-transformers
+# langchain-groq
+# tavily-python
+
+# fastapi
+# uvicorn
+# python-multipart
+
 
 fastapi
 uvicorn
+langchain
+langchain-community
+langchain-groq
+langchain-text-splitters
+faiss-cpu
+pypdf
+
+torch==2.8.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+sentence-transformers
 python-multipart
+tavily-python
+python-dotenv
