@@ -5,7 +5,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 from langchain_groq import ChatGroq
-
+ 
 def llm_tool(query, chat_history=None):
     """
     General purpose LLM tool
@@ -13,7 +13,7 @@ def llm_tool(query, chat_history=None):
 
     try:
         llm = ChatGroq(
-            model_name="llama-3.1-8b-instant",
+            model_name="openai/gpt-oss-120b",
             temperature=0.5
         )
 
